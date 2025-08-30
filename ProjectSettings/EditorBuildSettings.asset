@@ -5,7 +5,11 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: e5b8d2fb023cedd3f817d7980a5926b9
+  - enabled: 1
+    path: Assets/Scenes/Tetris.unity
+    guid: 6df4847fa4212a4958e38b416c32d9fd
+  m_configObjects:
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 917b6057c51a62570b04dbcbaca22402, type: 2}
