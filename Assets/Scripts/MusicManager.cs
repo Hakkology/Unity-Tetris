@@ -22,6 +22,8 @@ public class MusicManager : MonoBehaviour
             return;
         }
 
+        DontDestroyOnLoad(gameObject);
+
         _audioSource = gameObject.AddComponent<AudioSource>();
         _audioSource.outputAudioMixerGroup = musicMixerGroup;
         _audioSource.loop = true;
